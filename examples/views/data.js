@@ -1,7 +1,8 @@
 const data = {
 	"colsData": [{
 			"prop": "deptName1",
-			"label": "一级部门名称"
+			"label": "一级部门名称",
+			"fixed":"left"
 		}, {
 			"prop": "deptName2",
 			"label": "二级部门名称"
@@ -217,7 +218,8 @@ const data = {
 				"value": 53.811543176417366,
 				"columnKey": "2019-01",
 				"rowKey": "1-11-111-SaleTask",
-				"val": 53.811543176417366
+				"val": 53.811543176417366,
+				"editable":true,
 			},
 			"2019-02": {
 				"year": 2019,

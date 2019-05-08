@@ -6,7 +6,7 @@ Vue.use(Router)
 const router = new Router({
   routes: [
     {
-      path: '/IPCTable',
+      path: '/',
       name: 'IPCTable',
       component: (resolve) => require(['../views/IPCTable.vue'], resolve)
     },

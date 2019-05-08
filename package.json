@@ -2,7 +2,7 @@
   "name": "@ipc/table",
   "description": "基于elementui table 的 table",
   "author": "fanyoufu <fanyoufu@jd.com> ",
-  "version": "0.0.4",
+  "version": "0.0.24",
   "main": "/dist/ipc-table.js",
   "repository": {
     "type": "git",
@@ -15,6 +15,7 @@
   "dependencies": {
     "element-ui": "^2.5.4",
     "iview": "^3.2.2",
+    "uglifyjs-webpack-plugin": "^2.1.2",
     "vue": "^2.5.17",
     "vue-meditor": "^0.9.3",
     "xlsx": "^0.14.1"
